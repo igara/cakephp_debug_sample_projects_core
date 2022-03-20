@@ -55,5 +55,6 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "cakephp/plugin-installer": true
         }
-    }
+    },
+    "require-all": true
 }
