@@ -1,8 +1,8 @@
 {
-    "name": "cakephp/app",
+    "name": "projects/core",
     "description": "CakePHP skeleton app",
     "homepage": "https://cakephp.org",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": ">=7.2",
