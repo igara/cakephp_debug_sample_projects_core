@@ -1,20 +1,21 @@
 <?php
+
 declare(strict_types=1);
 
-namespace App\Test\TestCase\Model\Table;
+namespace Core\Test\TestCase\Model\Table;
 
-use App\Model\Table\UserDetailsTable;
+use Core\Model\Table\UserDetailsTable;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\UserDetailsTable Test Case
+ * Core\Model\Table\UserDetailsTable Test Case
  */
 class UserDetailsTableTest extends TestCase
 {
     /**
      * Test subject
      *
-     * @var \App\Model\Table\UserDetailsTable
+     * @var \Core\Model\Table\UserDetailsTable
      */
     protected $UserDetails;
 
@@ -56,7 +57,7 @@ class UserDetailsTableTest extends TestCase
      * Test validationDefault method
      *
      * @return void
-     * @uses \App\Model\Table\UserDetailsTable::validationDefault()
+     * @uses \Core\Model\Table\UserDetailsTable::validationDefault()
      */
     public function testValidationDefault(): void
     {
@@ -67,7 +68,7 @@ class UserDetailsTableTest extends TestCase
      * Test buildRules method
      *
      * @return void
-     * @uses \App\Model\Table\UserDetailsTable::buildRules()
+     * @uses \Core\Model\Table\UserDetailsTable::buildRules()
      */
     public function testBuildRules(): void
     {

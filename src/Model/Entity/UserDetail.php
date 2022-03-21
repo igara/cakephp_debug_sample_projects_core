@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Model\Entity;
+namespace Core\Model\Entity;
 
 use Cake\ORM\Entity;
 
@@ -12,7 +12,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property int $user_id
  *
- * @property \App\Model\Entity\User $user
+ * @property \Core\Model\Entity\User $user
  */
 class UserDetail extends Entity
 {

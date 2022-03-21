@@ -27,18 +27,19 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Core\\": "src/",
+            "CoreCake\\": "vendor/cakephp/cakephp/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Test\\": "tests/",
-            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+            "Core\\Test\\": "tests/",
+            "CoreCake\\Test\\": "vendor/cakephp/cakephp/tests/"
         }
     },
     "scripts": {
-        "post-install-cmd": "App\\Console\\Installer::postInstall",
-        "post-create-project-cmd": "App\\Console\\Installer::postInstall",
+        "post-install-cmd": "Core\\Console\\Installer::postInstall",
+        "post-create-project-cmd": "Core\\Console\\Installer::postInstall",
         "check": [
             "@test",
             "@cs-check"

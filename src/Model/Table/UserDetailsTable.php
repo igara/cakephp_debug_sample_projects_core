@@ -1,7 +1,8 @@
 <?php
+
 declare(strict_types=1);
 
-namespace App\Model\Table;
+namespace Core\Model\Table;
 
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
@@ -10,20 +11,20 @@ use Cake\Validation\Validator;
 /**
  * UserDetails Model
  *
- * @property \App\Model\Table\UsersTable&\Cake\ORM\Association\BelongsTo $Users
- * @method \App\Model\Entity\UserDetail newEmptyEntity()
- * @method \App\Model\Entity\UserDetail newEntity(array $data, array $options = [])
- * @method \App\Model\Entity\UserDetail[] newEntities(array $data, array $options = [])
- * @method \App\Model\Entity\UserDetail get($primaryKey, $options = [])
- * @method \App\Model\Entity\UserDetail findOrCreate($search, ?callable $callback = null, $options = [])
- * @method \App\Model\Entity\UserDetail patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
- * @method \App\Model\Entity\UserDetail[] patchEntities(iterable $entities, array $data, array $options = [])
- * @method \App\Model\Entity\UserDetail|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\UserDetail saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
- * @method \App\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
- * @method \App\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
- * @method \App\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
+ * @property \Core\Model\Table\UsersTable&\Cake\ORM\Association\BelongsTo $Users
+ * @method \Core\Model\Entity\UserDetail newEmptyEntity()
+ * @method \Core\Model\Entity\UserDetail newEntity(array $data, array $options = [])
+ * @method \Core\Model\Entity\UserDetail[] newEntities(array $data, array $options = [])
+ * @method \Core\Model\Entity\UserDetail get($primaryKey, $options = [])
+ * @method \Core\Model\Entity\UserDetail findOrCreate($search, ?callable $callback = null, $options = [])
+ * @method \Core\Model\Entity\UserDetail patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \Core\Model\Entity\UserDetail[] patchEntities(iterable $entities, array $data, array $options = [])
+ * @method \Core\Model\Entity\UserDetail|false save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \Core\Model\Entity\UserDetail saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \Core\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface|false saveMany(iterable $entities, $options = [])
+ * @method \Core\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface saveManyOrFail(iterable $entities, $options = [])
+ * @method \Core\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface|false deleteMany(iterable $entities, $options = [])
+ * @method \Core\Model\Entity\UserDetail[]|\Cake\Datasource\ResultSetInterface deleteManyOrFail(iterable $entities, $options = [])
  */
 class UserDetailsTable extends Table
 {

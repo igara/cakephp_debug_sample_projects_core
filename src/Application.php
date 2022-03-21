@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 /**
@@ -14,7 +15,8 @@ declare(strict_types=1);
  * @since     3.3.0
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
-namespace App;
+
+namespace Core;
 
 use Cake\Core\Configure;
 use Cake\Core\ContainerInterface;

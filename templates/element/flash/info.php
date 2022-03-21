@@ -1,6 +1,7 @@
 <?php
+
 /**
- * @var \App\View\AppView $this
+ * @var \Core\View\AppView $this
  * @var array $params
  * @var string $message
  */
